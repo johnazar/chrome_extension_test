@@ -1,0 +1,11 @@
+{
+    "name": "Exchange rate",
+    "version": "1.0.0",
+    "description": "latest exchange rate of RUB",
+    "manifest_version": 3,
+    "author": "John Azar",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Exchange rate"
+    }
+}
