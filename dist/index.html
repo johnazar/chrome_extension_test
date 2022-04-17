@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Alpin js -->
+    <!-- <meta
+      http-equiv="Content-Security-Policy"
+      content="script-src 'self' https://unpkg.com/alpinejs 'unsafe-inline' 'unsafe-eval';"
+    />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="connect-src 'self' https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/rub.json;"
+    /> -->
+    <!-- <script src="https://unpkg.com/alpinejs" defer></script> -->
+    <title>Exchange rate</title>
+  </head>
+  <body>
+    <h5>Exchange rate</h5>
+    <div>
+      <h3>1$ = <span x-data x-text="$store.exchange.usd"></span> ₽ /</h3>
+      <h3>1€ = <span x-data x-text="$store.exchange.eur"></span> ₽</h3>
+    </div>
+    <!-- <div x-data x-text="$store.darkMode.johndael"></div> -->
+  </body>
+  <!-- npm Alpin js -->
+  <script type="text/javascript" src="./main.js" defer></script>
+</html>
